@@ -1,0 +1,86 @@
+********************************************************************************************************************************************
+  @Package:
+  Packages help in organizing large codebases, improving code readability, and 
+   better maintenance and collaboration.
+
+   *NamingConvertion: package name should start with "lowercase"
+   Ex: week1
+
+ @Class:
+    A class is a blueprint or template for creating objects in object-oriented programming (OOP). 
+    It defines the data (variable) and behaviors (methods) that objects of the class will have.
+
+   *NamingConvertion: package name should start with "uppercase" and "PaselCase"
+   Ex: Browser,BrowserType
+
+  @Variables:
+   A variable is a named storage location in a computer's memory that holds a value. 
+   In programming, variables are used to store and manipulate data.
+
+   *NamingConvertion: package name should start with "lowercase" and CamalCase
+   Ex:classRoom
+
+
+  @DataTypes:
+   In programming, a data type is a classification that specifies which type of value a variable can hold.
+   It defines the operations that can be done on the data, the meaning of the data,
+   and the way values of that type can be stored    
+
+
+Method:
+
+*A method in Java is a collection of statements that perform a specific task. Methods are defined 
+within classes and are used to organize code, make it reusable, and promote modular programming.
+
+*A method typically consists of a method signature, which includes the method name, return type,
+ and parameter list, and a method body, which contains the code to be executed when the method is called.
+
+Return Type: Specifies the type of data the method will return, or "void" if it doesn't return anything.
+ Parameters: Input values passed to the method for processing.
+
+
+public  static void main(String[] args){
+
+}
+Accessmodifier -public
+static - common reference
+void-return type
+main-method name
+String[] agrs- input arguments
+
+
+Normal method:
+
+Accesmodifier returntype methodname(input arguments)
+
+Example:
+public class MyClass {
+    // Method definition -> UPI
+    public void printMessage() {
+        System.out.println("Hello, World!");
+    }
+
+    // Method with parameters and return type -> Cash 
+    public int addNumbers(int a, int b) {
+        return a + b;
+    }
+}
+
+
+
+ Object:
+
+An object in Java is an instance of a class. A class is a blueprint or a template that defines the 
+structure and behavior of objects. Objects are created based on these class definitions.
+variables ,methods
+
+Objects have attributes (fields or properties) and behaviors (methods). The attributes represent
+ the state of the object, and the methods define the actions or operations that the object can perform.
+
+syntax:
+step 1:
+ClassName objectName=new ClassName();
+
+step 2:
+
+objectName.methodName();
