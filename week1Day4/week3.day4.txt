@@ -1,0 +1,209 @@
+
+Operators:
+operators are special symbols that perform specific operations
+ 
+1.Arithmetic operators:
+These operators are used to perform mathematical operations
+such as addition, subtraction, multiplication,and division.
++ (addition)
+- (subtraction)
+* (multiplication)
+/ (division)-Que
+% (modulus or remainder)
+
+2.Assignment operators:
+These operators are used to assign values to variables. 
+= (assignment) a=5 ,comName="TestLeaf"
++= (add and assign) a+=5 =>a=a+5
+-= (subtract and assign) a-=5=> a=a-5
+*= (multiply and assign)
+/= (divide and assign)
+%= (modulus and assign)
+
+
+
+3.Comparison operators:
+These operators are used to compare two value
+and return a boolean value (true or false). 
+== (equal to)
+!= (not equal to)
+> (greater than)
+< (less than)
+>= (greater than or equal to)
+<= (less than or equal to)
+
+4.Logical operators:
+These operators are used to combine two or more boolean expressions
+and return a boolean value.   &&-->AND * 
+&& (logical and)  both condition should passed
+AND----->&&
+1*0=0     T F F
+0*1=0     F T F
+0*0=0     F F F
+1*1=1     T T T
+
+a=5,b=5
+true && false
+(a==b)&&(a>b) =both data=false
+
+(5==5)&&(5<5)---false
+
+|| (logical or) any one condition can pass
+
+true || false
+(a==b)||(a>b) => true
+
+
+addition
+OR------>||
+1+0=1    T F T
+0+1=1    F T T
+1+1=1    T T T
+0+0=0    F F F
+
+
+(5==5)||(5<5)---True
+
+! (logical not or negation)
+1---0   T F
+
+0---1   F  T
+boolean flag=false;
+!flag
+
+5. unary operator
+Increment operator (++) i=0 1
+Decrement operator (--)
+
+Conditional Statements:
+Conditional statements are used to control the flow of the program based on certain conditions. These statements allow the program to make decisions and execute different blocks of code depending on whether a specified condition evaluates to true or false. The primary conditional statements in Java include:
+1. if Statement:
+Definition: The if statement is used to execute a block of code only if a specified condition is true.
+
+Syntax:
+
+if (condition) {
+    // Code to be executed if the condition is true
+}
+2. if-else Statement:
+Definition: The if-else statement is used to execute one block of code if the condition is true and 
+another block of code if the condition is false.
+
+Syntax:
+
+if (condition) {
+    // Code to be executed if the condition is true
+} else {
+    // Code to be executed if the condition is false
+}
+
+
+3. if-else if-else Statement:
+Definition: The if-else if-else statement allows you to check multiple conditions in sequence. 
+It executes the first block of code whose condition is true.
+
+Syntax:
+
+if (condition1)  {
+    // Code to be executed if condition1 is true
+}else if (condition2) {
+    // Code to be executed if condition2 is true
+} else {
+    // Code to be executed if none of the conditions is true
+}
+
+If_Else:
+
+int mark =60
+
+
+
+if(mark>60){
+  System.out.println("pass");
+}
+else if(mark>50){
+  System.out.println("pass with above 50")
+}
+else{
+  System.out.println("fail");
+}
+
+ClassRoom:
+
+int age=20;
+if(above 18)- eligible for voting
+else- not eligible for voting
+
+
+
+Looping Statements:
+
+for Statement: The for loop in Java is used to iterate over a range of values or to 
+repeat a block of code a certain number of times. It consists of three parts: 
+initialization, condition, and iteration expression. The loop continues as long as the condition is true.
+
+Example:
+
+for(initialization;condition;iteration){
+
+}
+                5<5
+for (int i = 0; i < 5; i++) {
+    // Code to be repeated
+}
+
+output: 0 1 2 3 4
+
+
+
+
+
+
+Jump Statements:
+
+break Statement: The break statement is used to exit a loop prematurely. When encountered inside a loop,
+ it immediately terminates the loop, and the control is transferred to the statement following the loop.
+
+ for (int i = 0; i < 10; i++) {
+  //0,1,2,3,4,5
+    if (i == 5) {
+        break; // Exits the loop when i is 5
+    }
+    // Code inside the loop
+}
+
+
+continue Statement: The continue statement is used to skip the rest of the code inside a loop for 
+the current iteration and move on to the next iteration.
+
+for (int i = 0; i < 10; i++) {
+    if (i == 5) {
+        continue; // Skips the rest of the code for i=5 and continues with the next iteration
+    }
+    // Code inside the loop
+}
+//0,1,2,3,4,6,7,8,9
+
+
+Method:
+
+*A method in Java is a collection of statements that perform a specific task. Methods are defined 
+within classes and are used to organize code, make it reusable, and promote modular programming.
+
+*A method typically consists of a method signature, which includes the method name, return type,
+ and parameter list, and a method body, which contains the code to be executed when the method is called.
+
+Return Type: Specifies the type of data the method will return, or "void" if it doesn't return anything.
+ Parameters: Input values passed to the method for processing.
+
+
+public  static void main(String[] args){
+
+}
+Accessmodifier -public
+static - common reference
+void-return type
+main-method name
+String[] agrs- input arguments
+
+
